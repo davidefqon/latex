@@ -1,0 +1,224 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{milibreria}[2023/10/21 Mi primera libreria LaTeX]
+
+%
+%   INCLUYENDO LIBRERIAS
+%
+\RequirePackage{graphicx} % Proporciona herramientas para incluir y manipular gráficos en el documento. Permite la rotación, el escalado y otros ajustes a las imágenes.
+\RequirePackage{fancyhdr} % Permite personalizar los encabezados y pies de página del documento, ofreciendo un control detallado sobre su estilo y contenido.
+\RequirePackage[left=2.54cm, right=2.54cm, bottom=2.54cm, headheight=20mm]{geometry} % Configura los márgenes y dimensiones de la página. Los valores específicos ajustan los márgenes izquierdo, derecho e inferior, así como la altura del encabezado.
+\RequirePackage{xcolor} % Amplía las opciones para usar colores en LaTeX. Permite definir y utilizar colores personalizados en texto, tablas, gráficos, etc.
+\RequirePackage{hyperref} % Convierte referencias internas y citas en hipervínculos clicables y permite la creación de enlaces URL. También personaliza la apariencia de los enlaces.
+\RequirePackage{apacite} % Implementa el estilo de citación de la APA (American Psychological Association), facilitando la creación de bibliografías y citas en este formato.
+\RequirePackage{tikz} % Herramienta poderosa para crear gráficos vectoriales y diagramas directamente en LaTeX.
+\RequirePackage{pstricks} % Otro paquete para crear gráficos, similar a TikZ, pero basado en PostScript. No es compatible con todas las compilaciones de LaTeX.
+\RequirePackage{pst-plot} % Extiende pstricks para proporcionar funciones adicionales para trazar datos y funciones.
+\RequirePackage[absolute,overlay]{textpos} % Permite posicionar bloques de texto en cualquier lugar de la página con coordenadas absolutas.
+\RequirePackage{amssymb} % Añade un conjunto extenso de símbolos matemáticos adicionales.
+\RequirePackage{titlesec} % Ofrece control detallado sobre los títulos de secciones, subsecciones, etc., permitiendo personalizar su formato y estilo.
+\RequirePackage{tabularx} % Extiende el entorno tabular, permitiendo tablas con columnas de anchos específicos y ajustables.
+\RequirePackage{tocloft} % Personaliza la tabla de contenidos, lista de figuras y lista de tablas.
+\RequirePackage[most]{tcolorbox} % Crea cajas de texto coloreadas y estilizadas, útiles para resaltar información, crear teoremas, ejemplos, definiciones, etc.
+\RequirePackage{booktabs} % Mejora la calidad de las tablas en LaTeX, ofreciendo comandos adicionales para un formato más limpio y profesional.
+\RequirePackage[acronym]{glossaries}  % Facilita la creación de glosarios y listas de acrónimos.
+\RequirePackage{acronym} % Un paquete más simple para manejar acrónimos.
+\RequirePackage{multirow} % Permite la creación de celdas que ocupan múltiples filas en tablas.
+\RequirePackage[T1]{fontenc} % Configura la codificación de la fuente, mejorando la calidad del texto, especialmente para idiomas europeos.
+\RequirePackage{longtable} % Crea tablas que pueden extenderse a través de múltiples páginas.
+\RequirePackage{mdframed} % Crea marcos alrededor de elementos de texto, similar a tcolorbox.
+\RequirePackage{caption} % Personaliza los títulos de figuras, tablas y otros flotantes.
+\RequirePackage{inconsolata} % Implementa la fuente Inconsolata, una fuente monoespaciada.
+\RequirePackage{listings} % Permite incluir código fuente en el documento, con opciones para resaltar sintaxis y personalizar la apariencia.
+\RequirePackage{xparse} % Extiende las capacidades de definición de comandos nuevos y renovados en LaTeX.
+\RequirePackage{keyval} % Permite la creación de comandos que aceptan pares clave-valor como argumentos, facilitando la configuración personalizada.
+\RequirePackage{tikz,lipsum, lmodern}
+\RequirePackage{amsmath}
+\RequirePackage{amssymb}
+\RequirePackage{amsthm} % matematica
+%\RequirePackage{cite} % citaciones
+\RequirePackage{url} % urls
+\RequirePackage{microtype}
+
+
+
+%
+%   CONFIGURACION DE LOS ENLACES
+%
+\hypersetup
+{
+    colorlinks=true, 
+    linkcolor=azul,
+    urlcolor=azul,
+    citecolor=azul,
+    pdftitle={Título del Documento},
+    pdfauthor={David Brahyan Larota Pilco},
+    pdfsubject={Asunto del Documento},
+    pdfkeywords={palabra1, palabra2},
+    pdfcreator={LaTeX},
+}
+
+
+%
+%   configurando las unidades de medida utilizadas por el paquete textpos
+%
+\setlength{\TPHorizModule}{1mm} % Establece la unidad de medida horizontal para las coordenadas de textpos. En este caso, cada unidad en las coordenadas horizontales será igual a 1mm.
+\setlength{\TPVertModule}{1mm} % Similarmente, establece la unidad de medida vertical para las coordenadas de textpos. Cada unidad en las coordenadas verticales será igual a 1mm.
+
+%
+%   FORMATO DE LOS TITULOS
+%
+\titleformat{\section}
+{\normalfont\Large\bfseries}{\thesection  \hspace{0.5em}  }{0.5em}{}
+\titleformat{\subsection}
+{\normalfont\large\bfseries}{\thesubsection  \hspace{0.5em}   }{0.5em}{}
+\titleformat{\subsubsection}
+{\normalfont\small\bfseries}{\thesubsubsection  \hspace{0.5em}   }{0.5em}{}
+
+
+%
+%   ESTILOS DE PAGINA
+%
+\newcommand{\mystyle}
+{
+    \fancyhf{}
+    \renewcommand{\headrulewidth}{3pt}
+    \renewcommand{\headrule}{\hbox to\headwidth{\color{azul}\leaders\hrule height \headrulewidth\hfill}}
+    \lhead{\includegraphics[width=10mm]{\logoleft}}
+    \rhead{\includegraphics[width=10mm]{\logoright}}
+    \fancyhead[C]{\textbf{Universidad Nacional del Altiplano}}
+    \fancyfoot[L]{comercio Electronico}
+    \fancyfoot[R]{\thepage}
+    %\fancyfoot[R]{\today}
+}
+
+
+% 
+%   DEFINICIONES DE COMANDOS
+%
+\newcommand{\espacio}{\par\vspace{3mm}}
+\newcommand{\logoleft}{Sistemaslogo}
+\newcommand{\logoright}{Logo_UNAP}
+\newcommand{\miRectangulo}[5]{
+    \begin{tikzpicture}[overlay]
+        \fill[#5] (#1,-#2) rectangle (#3,-#4);
+    \end{tikzpicture}
+}
+
+\newmdenv[
+    topline=false,
+    bottomline=false,
+    rightline=false,
+    linewidth=1.5pt,
+    linecolor=azul,
+    innerleftmargin=-10pt,
+    innerrightmargin= 0pt,
+    innertopmargin=10pt,
+    innerbottommargin=10pt
+        ]{siderule}
+
+
+%
+% DEFINICIONES DE COLORES
+%
+\definecolor{azul}{rgb}{0.17, 0.40, 0.69}   
+\definecolor{rosado}{rgb}{0.98, 0.67, 0.62}
+\definecolor{negro}{rgb}{0.3,0.3,0.3}
+\definecolor{blanco}{rgb}{0.86, 0.86, 0.86}
+\definecolor{rojo}{rgb}{0.98, 0.24, 0.21}
+\definecolor{verde}{rgb}{0.31, 0.79, 0.69}
+\definecolor{ve_os}{rgb}{0.26, 0.58, 0.29}
+
+%
+%   CONFIUGRACIONES
+%
+\lstset{ 
+    language=C++, % lenguaje de programación
+    basicstyle=\ttfamily\normalsize, % estilo básico
+    keywordstyle=\bfseries, % estilo de las palabras clave
+    commentstyle=\color{negro}, % estilo de los comentarios
+    stringstyle=\ttfamily, % estilo de las cadenas de texto
+    numbers=left, % posición de los números de línea
+    numberstyle=\normalsize\color{black}, % estilo de los números de línea
+    stepnumber=1, % paso de los números de línea
+    showstringspaces=false, % mostrar espacios en las cadenas de texto
+    breaklines=true, % ajuste automático de línea
+    frame=leftline, % marco alrededor del código trBL
+    backgroundcolor=\color{white},  
+    %numbersep=7pt,
+    prebreak=\mbox{\textcolor{negro}{\scalebox{0.7}{$\lnot$}}},
+    postbreak=\mbox{\textcolor{negro}{\scalebox{0.7}{$\hookrightarrow$}}\space} % muestra un indicador en los saltos de línea
+}
+
+
+
+%
+%   DEFINICIONES ESPECIALES
+%
+\NewDocumentCommand{\miComando}{O{Valor por defecto} O{valor default} m}{
+    Primer argumento: #1 \\ %prueba
+    Segundo argumento: #2 \\
+    Argumento opcional: #3
+}
+\NewDocumentCommand{\DleftRule}{O{.} m}{
+    \begin{siderule}
+    \begin{quote}
+        #2#1
+    \end{quote}
+    \end{siderule}
+}
+\NewDocumentCommand{\Dbox}{O{.} m m}{
+  \begin{tcolorbox}[enhanced,attach boxed title to top left={yshift=-3mm,xshift=3mm,yshifttext=-1mm},colback=white!5!white,colframe=azul!75!black,colbacktitle=white!80!white,title=#2,fonttitle=\bfseries, coltitle=rojo,boxed title style={size=small,colframe=white!50!white} ]
+    \begin{center}
+      #3#1
+    \end{center}
+  \end{tcolorbox}
+}
+
+
+\makeatletter % prueba
+\define@key{persona}{nombre}{\def\personaNombre{#1}}
+\define@key{persona}{edad}{\def\personaEdad{#1}}
+\define@key{persona}{ciudad}{\def\personaCiudad{#1}}
+\makeatother
+
+\newcommand{\persona}[1]{% prueba 
+    \def\personaCiudad{Peru}
+    \setkeys{persona}{#1}%
+    Nombre: \personaNombre \\
+    Edad: \personaEdad \\
+    Ciudad: \personaCiudad
+}
+
+%
+%   DEFINICIONES DE BEGIN AND END
+%
+\newenvironment{destacado}
+{\begin{quote}\bfseries} % prueba
+{\end{quote}}
+
+%
+%   CONFIGURACION PARA LAS FIGURAS
+%
+\newcommand{\myimage}[3]{
+    \begin{figure}[hbt!]
+        \centering
+        \includegraphics[width=]{#1}
+        \caption{#3}
+        \label{fig:#3}
+    \end{figure}
+}
+
+
+\NewDocumentCommand{\img}{O{0.5} m m m}{
+    \begin{figure}[ht]
+        \centering
+        \includegraphics[width=#1\textwidth]{#2}
+        \caption{#3} 
+        \label{fig:#4}
+    \end{figure}
+}
+
+\endinput
+
+
+

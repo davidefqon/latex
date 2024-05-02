@@ -1,0 +1,26 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Autor%
+}{%
+Autor%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+prueba}
+\APACinsertmetastar {%
+prueba}%
+\begin{APACrefauthors}%
+Autor.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {prueba del documento lenguaje Latex} {prueba del
+  documento lenguaje latex}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{https://www.overleaf.com/}{13}{36}{34--36}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

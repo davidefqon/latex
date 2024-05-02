@@ -1,0 +1,50 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+NetMentor%
+}{%
+NetMentor%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+productor}
+\APACinsertmetastar {%
+productor}%
+\begin{APACrefauthors}%
+NetMentor.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{{\APACmonth{04}}}{}.
+\newblock
+\APACrefbtitle {{Patr{\ifmmode\acute{o}\else\'{o}\fi}n productor consumidor}.}
+  {{Patr{\ifmmode\acute{o}\else\'{o}\fi}n productor consumidor}.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.netmentor.es/entrada/patron-productor-consumidor}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 26. Apr. 2024]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Programaci{\ifmmode\acute{o}\else\'{o}\fi}n concurrente}}}{%
+\APACcitebtitle {{Programaci{\ifmmode\acute{o}\else\'{o}\fi}n concurrente}}}{%
+{\protect \APACyear {2023}}%
+}]{%
+filosofo}
+\APACinsertmetastar {%
+filosofo}%
+\APACrefbtitle {{Programaci{\ifmmode\acute{o}\else\'{o}\fi}n concurrente}.}
+  {{Programaci{\ifmmode\acute{o}\else\'{o}\fi}n concurrente}.}
+\newblock
+\APACrefYearMonthDay{2023}{{\APACmonth{11}}}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://ferestrepoca.github.io/paradigmas-de-programacion/progconcurrente/concurrente_teoria/index.html}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 26. Apr. 2024]}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

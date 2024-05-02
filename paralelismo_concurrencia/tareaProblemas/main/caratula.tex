@@ -1,0 +1,93 @@
+
+
+\begin{titlepage}
+    %\begin{tikzpicture}[overlay, remember picture]
+    %    \fill[red] (10cm,-10cm) rectangle (5cm,-15cm);
+    %\end{tikzpicture}
+    
+    \miRectangulo{-2cm}{-4cm}{2cm}{5cm}{rosado}
+%   \miRectangulo{x     }{y }{x1    }{y1   }{color}
+    
+    \miRectangulo{-1.5cm}{-2cm}{-1.2cm}{23.5cm}{black} % 1
+    \miRectangulo{-1.8cm}{23.5cm}{5.7cm}{23.2cm}{black} % 2
+    \miRectangulo{5.025cm}{23.5cm}{5.33cm}{20cm}{black} % 3
+    \miRectangulo{-2.7cm}{-1.7cm}{4.7cm}{-2cm}{black} % 4
+    \miRectangulo{4.2cm}{-2cm}{4.5cm}{10cm}{black} % 5
+
+    \begin{textblock}{100}(100,20)
+        \begin{flushright}
+        {\huge{\textbf{Universidad Nacional del Altiplano}}}\\
+        {\normalsize{\textbf{Educando mentes, Cambiando el mundo}}}
+        \end{flushright}
+        
+    \end{textblock}
+    
+    \begin{tikzpicture}[remember picture, overlay]
+        \node at (current page.north west) [anchor=north west, xshift=120mm, yshift=-47mm] {\includegraphics[width=0.45\textwidth]{\logoright}};
+    \end{tikzpicture}
+    \begin{textblock}{100}(100,130)
+        \begin{flushright}
+            {\Large{\textbf{Facultad de Ingeniería Mecánica Eléctrica,
+                    Electrónica y Sistemas}}}\\[10pt]
+            {\large{\textbf{Escuela Profesional de Ingeniería\\ de Sistemas}}}
+        \end{flushright}
+    \end{textblock}
+
+    \begin{textblock}{200}(10,163)
+        \begin{center}
+            
+            %\textcolor{azul}{\rule{\linewidth}{0.80mm}}
+            % titulo del articulo
+            %Monitoreo de la atención de los estudiantes mediante cámaras y celulares dentro del Aula en Puno Perú  \par
+            \vspace*{\fill}
+                \begin{minipage}{0.9\textwidth}
+                    \centering
+                    {\Large {\textbf{Problemas clasicos de Paralelismo y Concurrencia}}}\par
+                \end{minipage}
+            \vspace*{\fill}
+            \textcolor{azul}{\rule{0.5\linewidth}{0.80mm}} \par
+            \vspace{8mm}
+            {\large{\textbf{ PARALELISMO, CONCURRENCIA Y SISTEMAS DISTRIBUIDOS }}} \\[10pt]
+            {\large{\textbf{\textcolor{azul}{Ing. ROMERO FLORES ROBERT ANTONIO }}}} \\[20pt]
+            {\large{\textbf{estudiante}}}\\[10pt]
+            {\large{\textbf{$\looparrowright$   Larota Pilco David Brahyan  $\looparrowleft$ }}}\\[5pt]
+            %{\large{\textbf{$\looparrowright$    Quispe Calcina Royer $\looparrowleft$ }}}\\[5pt]
+            %{\large{\textbf{$\looparrowright$    Rojas Alejo Bruno $\looparrowleft$ }}}\\[5pt]
+            %{\large{\textbf{$\looparrowright$  $\mathfrak{David\ Brahyan\ Larota\ Pilco}$   $\looparrowleft$ }}}\\[20pt]
+            \today
+
+        \end{center}
+    \end{textblock}
+\end{titlepage}
+%//--------------------------------------
+%@article{prueba,
+%  title={prueba del documento lenguaje Latex},
+%  author={Autor},
+%  journal={https://www.overleaf.com/},
+%  volume={13},
+%  number={36},
+%  pages={34--36},
+%  year={2022}
+%}
+%
+%
+%\begin{lstlisting}
+%
+%\end{lstlisting}
+%
+%\begin{figure}[h]
+%    \centering
+%    \includegraphics[width=0.5\textwidth]{images/medicion_con_tacometro.png}
+%    \caption{se realizo la medición con el tacómetro} 
+%\end{figure}
+%
+%\begin{tabular}{ l c l }
+%Tipo  			& = & 	GL-90L-4B5 \\
+%Ip              & = &	55 \\
+%Cos  $\varphi$    & = &  	  0.78 \\
+%Voltaje         & = &	 230/400V \\
+%Potencia	    & = &	2HP \\
+%Intensidad    	& = & 	6.1/3.5 \\
+%Frecuencia  	& = & 	60HZ \\
+%Rpm     		& = &	1680 
+%\end{tabular}

@@ -1,0 +1,144 @@
+\section{Planteamiento de teórico de la Investigación}
+\subsection{Exposición de la Situación Problemática}
+Factores como distracciones, falta de interés en el contenido o problemas individuales pueden influir en la atención de los estudiantes. La situación problemática radica en la necesidad de identificar y comprender los factores que afectan la atención de los estudiantes, así como en desarrollar estrategias efectivas para monitorear y mejorar este aspecto crucial del proceso educativo.
+\espacio
+La introducción de tecnologías como cámaras y celulares, junto con algoritmos avanzados, busca abordar esta situación problemática de manera innovadora. El uso de estas herramientas permitirá un monitoreo en tiempo real de la atención de los estudiantes, brindando insights valiosos para implementar intervenciones pedagógicas específicas y mejorar la calidad de la enseñanza en el entorno educativo de Puno, Perú.
+
+\subsection{Formulación del problema}
+La situación problemática se centra en las limitaciones de los métodos tradicionales para monitorear el rendimiento de los estudiantes en el aula, especialmente en lo que respecta a métricas críticas como la asistencia, los niveles de atención y el estado emocional. Estas limitaciones dificultan la capacidad de los instructores para gestionar eficazmente la dinámica del aula, lo que puede llevar a resultados académicos subóptimos. Por lo tanto, el estudio busca desarrollar un sistema innovador de visión en tiempo real que utilice modelos YOLOv7 para monitorear las emociones, la asistencia y los niveles de atención de los estudiantes, con el objetivo de proporcionar información en tiempo real sobre métricas críticas que los métodos tradicionales no pueden capturar
+\espacio
+
+\subsubsection{interrogante general} 
+\lipsum[1]
+\subsubsection{interrogante especifica}
+\lipsum[1]
+\subsection{Justificación del problema}
+\lipsum[1]
+\subsection{Objetivos de la Investigación}
+\lipsum[1]
+\subsubsection{Objetivo General}
+\lipsum[1]
+\subsubsection{Objetivos específicos}
+\lipsum[1]
+
+\subsection{Factibilidad y viabilidad de la investigación }
+\lipsum[1]
+\subsection{Hipótesis, Variables e indicadores}
+\lipsum[1]
+\subsubsection{Hipótesis general}
+\lipsum[1]
+\subsubsection{Hipótesis especifica}
+\lipsum[1]
+\subsubsection{Variable(s)}
+\lipsum[1]
+%\subsubsection{Dimensiones }
+\subsubsection{Indicadores}
+\lipsum[1]
+\subsubsection{Operacionalización de la(s) variable(s)}
+\lipsum[1]
+\subsubsection{Definición conceptual de la(s) variable(s)}
+\lipsum[1]
+
+\section{Marco Teórico }
+\lipsum[1]
+\subsection{Antecedentes de la investigación } %(Internacional, Nacional y local)
+\lipsum[1]
+\subsection{teóricas científicas }%(Marco teórico esquemático)
+\lipsum[1]
+\subsection{Marco conceptual }%(definición de términos)
+\lipsum[1]
+\subsection{Descripción de la unidad investigada  }%(opcional)
+\lipsum[1]
+
+\section{Procesamiento Metodologico de la Investigación}
+\subsection{Metodología del estudio}
+\lipsum[1]
+\subsubsection{  Diseño de la investigación}
+\lipsum[1]
+\subsubsection{  Tipo de investigación}
+\lipsum[1]
+\subsubsection{  Enfoque de investigación}
+\lipsum[1]
+\subsubsection{  Alcance de la Investigación (nivel)}
+\lipsum[1]
+\subsubsection{  Linea de investigación}
+\lipsum[1]
+\subsection{Unidad de estudio}
+\lipsum[1]
+\subsubsection{Ubicación espacial o ámbito de investigación}
+\lipsum[1]
+\subsubsection{Población}
+\lipsum[1]
+\subsubsection{Muestra}
+\lipsum[1]
+\subsubsection{Temporalidad o tiempo social}
+\lipsum[1]
+\subsection{Técnicas e instrumentos de investigación}
+\lipsum[1]
+\subsubsection{Técnicas}
+\lipsum[1]
+\subsubsection{Instrumentos}
+\lipsum[1]
+\subsubsection{Validación y confiabilidad de los instrumentos}
+\lipsum[1]
+\subsection{Estrategias de recolección de datos}
+\lipsum[1]
+\subsubsection{Procedimientos }
+\lipsum[1]
+\subsubsection{Procesamiento de la información}
+\lipsum[1]
+\section{ASPECTOS ADMINISTRATIVOS}
+\lipsum[1]
+\subsection{Recursos humanos}
+\lipsum[1]
+\subsection{Recursos materiales}
+\lipsum[1]
+\subsection{Recursos económicos}
+\lipsum[1]
+\subsection{Recursos financieros}
+\lipsum[1]
+\section*{CRONOGRAMA DE TRABAJO}
+\lipsum[1]
+
+
+
+\section{Introducción}
+\subsection{Contextualización del Problema}
+\subsection{Formulación del Problema}
+\subsubsection{Pregunta de Investigación}
+\subsubsection{Objetivos de la Investigación}
+\subsection{Justificación de la Investigación}
+
+\section{Marco Teórico}
+\subsection{Antecedentes de la Investigación}
+\subsection{Fundamentos Teóricos en Ingeniería de Sistemas}
+\subsection{Marco Conceptual}
+\subsection{Descripción del Contexto de la Investigación}
+
+\section{Metodología de la Investigación}
+\subsection{Diseño de la Investigación}
+\subsubsection{Enfoque Metodológico}
+\subsubsection{Tipo de Investigación}
+\subsubsection{Alcance de la Investigación}
+\subsection{Unidad de Estudio}
+\subsubsection{Ubicación Espacial o Ámbito de Investigación}
+\subsubsection{Población}
+\subsubsection{Muestra}
+\subsubsection{Temporalidad o Tiempo Social}
+\subsection{Técnicas e Instrumentos de Investigación}
+\subsubsection{Métodos y Técnicas Utilizadas}
+\subsubsection{Instrumentos de Recolección de Datos}
+\subsubsection{Validación y Confiabilidad de Instrumentos}
+\subsection{Estrategias de Recolección y Procesamiento de Datos}
+\subsubsection{Procedimientos}
+\subsubsection{Herramientas para el Procesamiento de Datos}
+
+\section{Aspectos Administrativos}
+\subsection{Recursos Humanos}
+\subsection{Recursos Materiales}
+\subsection{Recursos Económicos}
+\subsection{Recursos Financieros}
+
+\section{Conclusiones y Recomendaciones}
+\subsection{Conclusiones}
+\subsection{Recomendaciones para Futuras Investigaciones}

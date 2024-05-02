@@ -1,0 +1,60 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: problemasComunes.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: caratula.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+The style file: apacite.bst
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: referencias.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+You've used 2 entries,
+            6951 wiz_defined-function locations,
+            1280 strings with 11052 characters,
+and the built_in function-call counts, 2966 in all, are:
+= -- 368
+> -- 10
+< -- 126
++ -- 110
+- -- 4
+* -- 180
+:= -- 553
+add.period$ -- 7
+call.type$ -- 2
+change.case$ -- 37
+chr.to.int$ -- 0
+cite$ -- 4
+duplicate$ -- 53
+empty$ -- 158
+format.name$ -- 14
+if$ -- 594
+int.to.chr$ -- 0
+int.to.str$ -- 6
+missing$ -- 0
+newline$ -- 44
+num.names$ -- 8
+pop$ -- 139
+preamble$ -- 1
+purify$ -- 11
+quote$ -- 0
+skip$ -- 140
+stack$ -- 0
+substring$ -- 116
+swap$ -- 27
+text.length$ -- 9
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 184
+warning$ -- 0
+while$ -- 11
+width$ -- 0
+write$ -- 49

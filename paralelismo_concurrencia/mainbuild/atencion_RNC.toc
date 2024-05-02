@@ -1,0 +1,6 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción}{2}{section.1}%
+\contentsline {section}{\numberline {2}Conceptos de Estados de un Proceso}{2}{section.2}%
+\contentsline {section}{\numberline {3} Conclusiones}{3}{section.3}%
+\contentsline {section}{\numberline {4}Referencias}{4}{section.4}%
+\contentsline {section}{Referencias}{4}{section.4}%
