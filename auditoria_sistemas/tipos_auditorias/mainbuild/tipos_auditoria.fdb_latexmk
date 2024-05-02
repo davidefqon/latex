@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex d:/proyectos_latex/8vo_semestre/auditoria_sistemas/tipos_auditorias/mainbuild/tipos_auditoria"] 1712465606 "d:/proyectos_latex/8vo_semestre/auditoria_sistemas/tipos_auditorias/mainbuild/tipos_auditoria.aux" "d:/proyectos_latex/8vo_semestre/auditoria_sistemas/tipos_auditorias/mainbuild/tipos_auditoria.bbl" "d:/proyectos_latex/8vo_semestre/auditoria_sistemas/tipos_auditorias/mainbuild/tipos_auditoria" 1712465615 0
+["bibtex d:/proyectos_latex/8vo_semestre/auditoria_sistemas/tipos_auditorias/mainbuild/tipos_auditoria"] 1712465606 "d:/proyectos_latex/8vo_semestre/auditoria_sistemas/tipos_auditorias/mainbuild/tipos_auditoria.aux" "d:/proyectos_latex/8vo_semestre/auditoria_sistemas/tipos_auditorias/mainbuild/tipos_auditoria.bbl" "d:/proyectos_latex/8vo_semestre/auditoria_sistemas/tipos_auditorias/mainbuild/tipos_auditoria" 1714685868 0
   "./referencias.bib" 1712465359 4089 4c599b20f575e8098238fe4c0f9c5a70 ""
   "C:/Users/HUAWEI/AppData/Local/Programs/MiKTeX/bibtex/bst/apacite/apacite.bst" 1374952728 146156 9d7b79dbf9d91133318126032cff8c27 ""
-  "d:/proyectos_latex/8vo_semestre/auditoria_sistemas/tipos_auditorias/mainbuild/caratula.aux" 1712465612 1317 4247749f4e1708433859e829cf9ccd9c "pdflatex"
-  "d:/proyectos_latex/8vo_semestre/auditoria_sistemas/tipos_auditorias/mainbuild/tipos_auditoria.aux" 1712465613 6080 a376cfb23cbfac9c90d73a1ac544f337 "pdflatex"
+  "d:/proyectos_latex/8vo_semestre/auditoria_sistemas/tipos_auditorias/mainbuild/caratula.aux" 1714685866 1317 4247749f4e1708433859e829cf9ccd9c "pdflatex"
+  "d:/proyectos_latex/8vo_semestre/auditoria_sistemas/tipos_auditorias/mainbuild/tipos_auditoria.aux" 1714685866 6080 a376cfb23cbfac9c90d73a1ac544f337 "pdflatex"
   (generated)
   "d:/proyectos_latex/8vo_semestre/auditoria_sistemas/tipos_auditorias/mainbuild/tipos_auditoria.bbl"
   "d:/proyectos_latex/8vo_semestre/auditoria_sistemas/tipos_auditorias/mainbuild/tipos_auditoria.blg"
   (rewritten before read)
-["pdflatex"] 1712465607 "d:/proyectos_latex/8vo_semestre/auditoria_sistemas/tipos_auditorias/main/tipos_auditoria.tex" "d:/proyectos_latex/8vo_semestre/auditoria_sistemas/tipos_auditorias/mainbuild/tipos_auditoria.pdf" "tipos_auditoria" 1712465615 0
+["pdflatex"] 1714685860 "d:/proyectos_latex/8vo_semestre/auditoria_sistemas/tipos_auditorias/main/tipos_auditoria.tex" "d:/proyectos_latex/8vo_semestre/auditoria_sistemas/tipos_auditorias/mainbuild/tipos_auditoria.pdf" "tipos_auditoria" 1714685868 0
   "C:/Users/HUAWEI/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1706514802 94578 3d7812996b5e70e7dd3d06c67bb78c06 ""
   "C:/Users/HUAWEI/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1700687233 24142345 f3990f41180d78f89caa57d6c9076591 ""
   "C:/Users/HUAWEI/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -304,18 +304,18 @@
   "C:/Users/HUAWEI/Pictures/imagesppt/Logo_UNAP.png" 1638703899 316919 fe03fdc1d2686f99d2ec39696b57d4ee ""
   "C:/Users/HUAWEI/Pictures/imagesppt/Sistemaslogo.png" 1664980805 6180 887d87b14a5b4a052bbfdd293a7c91c2 ""
   "caratula.tex" 1712460453 3153 d1482e2c78124391ad7115c14aaa0151 ""
-  "d:/proyectos_latex/8vo_semestre/auditoria_sistemas/tipos_auditorias/main/tipos_auditoria.tex" 1712465586 10390 e6a9297aad0bd976f587bc84efc0e624 ""
-  "d:/proyectos_latex/8vo_semestre/auditoria_sistemas/tipos_auditorias/mainbuild/caratula.aux" 1712465612 1317 4247749f4e1708433859e829cf9ccd9c "pdflatex"
-  "d:/proyectos_latex/8vo_semestre/auditoria_sistemas/tipos_auditorias/mainbuild/tipos_auditoria.aux" 1712465613 6080 a376cfb23cbfac9c90d73a1ac544f337 "pdflatex"
+  "d:/proyectos_latex/8vo_semestre/auditoria_sistemas/tipos_auditorias/main/tipos_auditoria.tex" 1714685857 10201 9ca20272ec6fa8ac6f71dfacb9a6faaf ""
+  "d:/proyectos_latex/8vo_semestre/auditoria_sistemas/tipos_auditorias/mainbuild/caratula.aux" 1714685866 1317 4247749f4e1708433859e829cf9ccd9c "pdflatex"
+  "d:/proyectos_latex/8vo_semestre/auditoria_sistemas/tipos_auditorias/mainbuild/tipos_auditoria.aux" 1714685866 6080 a376cfb23cbfac9c90d73a1ac544f337 "pdflatex"
   "d:/proyectos_latex/8vo_semestre/auditoria_sistemas/tipos_auditorias/mainbuild/tipos_auditoria.bbl" 1712465606 7413 631be7de46d7e98401f19022f8e793d7 "bibtex d:/proyectos_latex/8vo_semestre/auditoria_sistemas/tipos_auditorias/mainbuild/tipos_auditoria"
-  "d:/proyectos_latex/8vo_semestre/auditoria_sistemas/tipos_auditorias/mainbuild/tipos_auditoria.out" 1712465613 1325 352aeb14fb030d847603e24dfd2fe56d "pdflatex"
+  "d:/proyectos_latex/8vo_semestre/auditoria_sistemas/tipos_auditorias/mainbuild/tipos_auditoria.out" 1714685866 1325 352aeb14fb030d847603e24dfd2fe56d "pdflatex"
   "images/audi_financiera.jpg" 1712462777 116412 30eb81196c5ff6c760e0dbf55be0b649 ""
   "images/audit_online_3.jpg" 1712462164 144942 c744809979fdb8b80cce06a75d075a8e ""
   "images/fig_cumplimiento.jpg" 1712463665 83241 4034b95115071c7eb65958fd0ae3ed14 ""
   "images/fig_operativa.jpg" 1712464233 84525 ad63089f1059215940e38bc3d7f7f13c ""
   "images/fig_sistemas.jpg" 1712464682 44244 67c5011ae8cdf3a736403e5de0eb4471 ""
   "milibreria.sty" 1712460466 8943 fd3819b18d1b1f3e9e232795b32b35b1 ""
-  "tipos_auditoria.tex" 1712465586 10390 e6a9297aad0bd976f587bc84efc0e624 ""
+  "tipos_auditoria.tex" 1714685857 10201 9ca20272ec6fa8ac6f71dfacb9a6faaf ""
   (generated)
   "d:/proyectos_latex/8vo_semestre/auditoria_sistemas/tipos_auditorias/mainbuild/caratula.aux"
   "d:/proyectos_latex/8vo_semestre/auditoria_sistemas/tipos_auditorias/mainbuild/tipos_auditoria.aux"
